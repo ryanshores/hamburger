@@ -12,6 +12,7 @@ const button = (props) => {
         ].join(' ')
       }
       onClick={props.clicked}
+      // onClick={() => alert('Clicked')}
       >{props.children}</button>
    );
 }
